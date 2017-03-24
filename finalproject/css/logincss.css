@@ -89,13 +89,6 @@ p#registerlink{
 	
 }
 
-
-
-
-
-
-
-
 ::-webkit-input-placeholder {
     font-family: 'Pangolin', cursive;
     text-align: center;
@@ -145,5 +138,5 @@ footer {
     padding: 18px;
     margin: -10px;
    position: relative;
-    bottom: -120px;
+    bottom: -200px;
 }

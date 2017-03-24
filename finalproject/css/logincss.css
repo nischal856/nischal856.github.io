@@ -1,0 +1,149 @@
+body{
+    background: url(../images/background2.jpg) no-repeat;
+    height: 400px;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Pangolin', cursive;
+
+}
+.nav{
+    height: 80px;
+    background-color: black;
+    font-size: 15px;
+    margin:-10px -10px;
+    padding: 5px;
+}
+#logo{
+
+    font-size: 34px;
+    position: relative;
+    left: 150px;
+    font-weight:bold;
+    top: 15px;
+}
+hr{
+	padding: -5px -5px;
+}
+a{
+ 	color: white;
+ 	cursor: pointer;
+ 	text-decoration: none;
+	font-size:18px;
+	padding-left: 10px;
+	padding-bottom: 30px;
+    margin-top:-10px;
+}
+a:hover{
+	color: grey;
+	text-decoration: none;
+	
+}
+#logo:hover{
+    color: white;
+}
+
+.barstyle{
+			font-size: 18px;
+			font-weight:bold;
+			color: white; 
+			margin-left: 5px;
+			
+}
+.text-right {
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 100px;
+	top: 20px;
+    font-size: 8px;
+}
+.login{
+    background-color: black;
+    opacity:0.8;
+    padding: 30px 30px;
+    color: snow;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    width: 40%;
+    border-radius: 8px;
+    position: relative;	
+    top: 80px;
+   
+   
+}
+.username{
+	width: 70%;
+}
+
+p#check{
+	display: inline-block;
+	position: relative;
+	left:90px;
+}
+
+p#registerlink{
+	display: inline-block;
+	position: relative;
+	left: -60px;
+	
+}
+
+
+
+
+
+
+
+
+::-webkit-input-placeholder {
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 400;
+}
+input:required, textarea:required {
+    font-family: 'Pangolin', cursive;
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+input:required {
+    font-family: 'Pangolin', cursive;
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+input {
+    font-family: 'Pangolin', cursive;
+    background-color: black;
+    outline: none;
+    border-radius: 0;
+    text-align: center;
+    background: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    max-width: 100%;
+
+    padding: 1rem;
+    border: 2px dashed rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    cursor: text;
+}
+
+a.button{
+    background-color: rgb(38, 38, 38);
+    padding: 15px 40px;
+    border-radius: 6px;
+    font-size: 18px;
+    position: relative;
+    left: 40px;
+    bottom: 50px;
+}
+footer {
+    background-color: black;
+    color: snow;
+    text-align: center;
+    padding: 18px;
+    margin: -10px;
+   position: relative;
+    bottom: -190px;
+}

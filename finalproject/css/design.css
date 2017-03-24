@@ -1,0 +1,267 @@
+body{
+    background: url(../images/background2.jpg) no-repeat;
+    height: 400px;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Pangolin', cursive;
+
+}
+.nav{
+    height: 80px;
+    background-color: black;
+    font-size: 15px;
+    margin:-10px -8px;
+    padding: 5px;
+}
+#logo{
+
+    font-size: 34px;
+    position: relative;
+    left: 150px;
+    font-weight:bold;
+    top: 15px;
+}
+
+.search {
+    height: 140px;
+    width: 680px;
+    text-align: center;
+    color: white;
+    position: relative;
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 6px;
+    top: 100px;
+    padding: 15px;
+}
+a#scroll {
+    display: inline-block;
+    position: absolute;
+}
+
+
+.searchbox{
+            height: 60px;
+            width: 660px;
+            position: relative;
+            top: 10px;
+            border-radius: 6px;
+
+        }
+                .searchtext {
+                    font-size: 24px;
+                    padding: 20px 20px;
+                    width: 90%;
+                    border-radius: 6px;
+                    border: 2px solid white;
+                }
+
+                .searchicon {
+                    position: relative;
+                    margin-left: 500px;
+                    margin-top: -60px;
+                }
+            #searchtitle{
+                position: relative;
+                font-size: 24px;
+                font-weight: bold;
+                color:white;
+                top:10px;
+                padding:0px;
+            }
+
+
+.conainer{
+    color: white;
+    height: 300px;
+    background-color: black;
+    opacity: 0.8;
+    display: inline-block;
+    padding: 55px 58px;
+    position: relative;
+    align-content: center;
+    border-radius: 2px;
+    top: 100px;
+
+}
+.barstyle{
+			font-size: 18px;
+			font-weight:bold;
+			color: white; 
+			margin-left: 5px;
+			
+}
+
+a{
+ 	color: white;
+ 	cursor: pointer;
+ 	text-decoration: none;
+	font-size:18px;
+	padding-left: 10px;
+	padding-bottom: 30px;
+    margin-top:-10px;
+}
+a:hover{
+	color: grey;
+	text-decoration: none;
+	
+}
+#logo:hover{
+    color: white;
+}
+
+
+.text-right {
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 100px;
+	top: 20px;
+    font-size: 8px;
+}
+h1{
+    font-size: 45px;
+}
+
+
+fieldset {
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    opacity: 0.8;
+    color: snow;
+    padding: 50px 80px;
+    top: 200px;
+    border-radius: 6px;
+
+}
+
+
+.button1{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 40px;
+    position: relative;
+    top: 15px
+}
+.button{
+    height: 40px;
+    width: 80%;
+    color: black;
+}
+
+p.reviews{
+    text-align: justify;
+}
+
+
+.body {
+
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+        margin: -10px;
+    height:635px;
+    position: relative;
+    top:250px;
+}
+
+#contact-form {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: 400;
+    cursor: pointer;
+}
+
+textarea,
+input {
+
+    outline: none;
+    border-radius: 0;
+    text-align: center;
+    background: none;
+    font-weight: 700;
+
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    max-width: 90%;
+    padding: 1rem;
+    border: 2px dashed rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    cursor: text;
+}
+
+textarea {
+    text-align: left;
+    resize: none;
+    width: 90%;
+    border-color: rgba(255, 255, 255, 0)
+}
+
+
+input {
+    font-family: 'Pangolin', cursive;
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+input:required,
+textarea:required {
+    font-family: 'Pangolin', cursive;
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+
+
+input:required:valid {
+    font-family: 'Pangolin', cursive;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+
+::-webkit-input-placeholder {
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 400;
+}
+
+#contact{
+    background-color: black;
+    opacity: 0.8;
+    
+    border-radius: 4px;
+    padding: 5px 5px;
+}
+footer {
+    background-color: black;
+    color: snow;
+    text-align: center;
+    padding: 18px;
+    margin: -10px;
+    position: relative;
+    bottom: -250px;
+}
+.button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 20%;
+ 	position: relative;
+ 	left: 80px;
+ }
